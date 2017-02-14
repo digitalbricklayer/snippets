@@ -1,0 +1,5 @@
+# Synchonise the first folder into the second folder
+rsync -r /home/www/drupal/sites/ ~/drupal-6-38/sites
+
+# More info here...
+https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps

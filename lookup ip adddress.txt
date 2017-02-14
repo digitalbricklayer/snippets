@@ -1,0 +1,9 @@
+# DNS Lookup using configured DNS servers
+nslookup -debug <domain here>
+
+eg nslookup -debug maps.google.com
+
+# DNS lookup using a specific DNS server
+nslookup -debug <domain here> <Ip address of DNS server here>
+
+eg nslookup -debug maps.google.com 8.8.8.8

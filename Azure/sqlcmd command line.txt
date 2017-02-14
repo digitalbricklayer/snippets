@@ -1,0 +1,1 @@
+sqlcmd -U LiveAdministrator@yh1yu50qnf -P P1ssP00rP00dle -S yh1yu50qnf.database.windows.net -d master

@@ -1,0 +1,2 @@
+# Find pattern in a set of files under a directory
+grep -rnw '/path/to/somewhere/' -e "pattern"

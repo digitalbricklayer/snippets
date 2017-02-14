@@ -1,0 +1,7 @@
+# if a commit has not been pushed, it can be ammended
+
+# Change the repo in some way...
+git add .
+
+# And then just commit with the --amend argument.
+git commit --amend

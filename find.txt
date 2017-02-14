@@ -1,0 +1,5 @@
+# Find the string Openxtra_Article in every file called config.php under the current directory
+find . -name 'config.php' -exec grep Openxtra_Article {} \;
+
+# Find a file named opcache.ini
+find / -name 'opcache.ini'

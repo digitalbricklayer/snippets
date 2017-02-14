@@ -1,0 +1,6 @@
+# list all users who have at least one order
+select u.name from users as u inner join uc_orders as o on u.uid = o.uid;
+
+# list all users who have at least one valid, completed order
+select u.name,o.order_status from users as u inner join uc_orders as o on u.uid = o.uid and (o.order_status <> 'in_checkout' and o.order_status <> 'cancelled' and o.order_status <> 'paypal_pending' and o.order_status <> 'canceled');
+

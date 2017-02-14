@@ -1,0 +1,14 @@
+# List mail queue
+mailq
+
+# clear mail queue
+postsuper -d ALL
+
+# Send test email
+sendmail -bv jackhughes@openxtra.net
+
+# List available authentication
+postconf -A
+
+# List all configuration overrides
+postconf -n

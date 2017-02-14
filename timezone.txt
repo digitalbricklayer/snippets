@@ -1,0 +1,6 @@
+# Set the timezone to UTC
+timedatectl set-timezone UTC
+
+# List all timezones
+timedatectl list-timezones
+

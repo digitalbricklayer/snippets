@@ -1,0 +1,2 @@
+# Change the created_at and updated_at fields of a csv file into US time standard
+Import-Csv '.\prospective customers.csv' | % {$_.created_at = ([datetime]::Parse($_.created_at).ToString('MM/dd/yyy HH:mm'));$_.updated_at = ([datetime]::Parse($_.updated_at).ToString('MM/dd/yyyy HH:mm'));$_} | Export-Csv '.\prospective customers2.csv' -NoTypeInformation

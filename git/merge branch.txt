@@ -1,0 +1,8 @@
+# Change back to master
+git checkout master
+
+# Merge the <branchname> into master
+git merge <branchname>
+
+# Push the changes into master
+git push

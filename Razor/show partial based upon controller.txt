@@ -1,0 +1,2 @@
+@if (!(ViewContext.Controller is Xsensior_Website.Controllers.BasketController)) {
+}

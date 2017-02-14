@@ -1,0 +1,27 @@
+# starting the mysql server
+/sbin/service mysqld start
+
+# stopping mysql server
+/sbin/service mysqld stop
+
+# list all databases
+show databases;
+
+# list all tables in a database
+show tables;
+
+# create a new database
+create database <databasename>;
+
+# delete a database
+drop database <databasename>;
+
+# Dump a database into a file
+mysqldump <databasename> > output.sql
+
+# restore a database dump
+mysql <databasename> < dumpedfilename.sql
+
+# show fields in a table
+show columns from <tablename>;
+

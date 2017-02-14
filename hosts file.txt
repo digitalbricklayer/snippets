@@ -1,0 +1,2 @@
+# On Windows 10 the hosts file is in the following folder:
+C:\Windows\System32\drivers\etc\

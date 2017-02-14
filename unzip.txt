@@ -1,0 +1,2 @@
+# Unzip a file to a specific folder
+unzip <zip file> -d <destination directory>

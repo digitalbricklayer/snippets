@@ -1,0 +1,11 @@
+# Create a zipped tar file of a folder
+tar cvzf MyImages-14-09-12.tar.gz /home/MyImages
+
+# Untar a file into current directory
+tar -xvf thumbnails-14-09-12.tar.gz
+
+# Untar a file into a specified directory
+tar -xvf thumbnails-14-09-12.tar.gz -C /home/www/
+
+# Unzip a .tgz file
+tar -xvzf /path/to/yourfile.tgz

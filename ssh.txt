@@ -1,0 +1,2 @@
+# restart the SSH daemon
+systemctl restart sshd

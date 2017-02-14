@@ -1,0 +1,3 @@
+# convert an existing branch to a different branch. Makes sense after a new local branch is created.
+
+git checkout <branch name>

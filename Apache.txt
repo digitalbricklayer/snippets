@@ -1,0 +1,5 @@
+# starting apache
+/sbin/service httpd start
+
+# stopping apache
+/sbin/service httpd stop
